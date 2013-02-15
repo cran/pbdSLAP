@@ -1,6 +1,6 @@
-35fd68b1ddab6b3e4ca96da276dae619 *ChangeLog
+89b847f533aac2846820a0751b45f6ba *ChangeLog
 5c22cafd58126b7aa74069fdb05a7629 *ChangeNote
-36d2dccfcd8629d3766e3a57d7ce5666 *DESCRIPTION
+9b015d933bd55e0418c6c4424f5b2275 *DESCRIPTION
 04c171302ea7931796761bab32fc8734 *INSTALL
 c9e32d9da11e405a3dbfeda6b63233b2 *INSTALL.win.bin
 d9042f20bca097bb100ba6cfc633b00a *INSTALL.win.src
@@ -10,17 +10,17 @@ a7e6de6f55bab05950d6edb222ad320b *NAMESPACE
 909f31326f4eeae9bfafd7029bafbebf *R/zzz.r
 a27b4cc36b47aedac5b741b1f5e8e23c *README
 cd7024e00840f2877ddb7341b39d3dcf *cleanup
-e9e08d607f931bba839832d0b6bf34a9 *configure
+41abc09864fe90d1771bf54f2822d433 *configure
 7658ecc010d5c8bc39bb67e30b6d6d54 *configure.ac
 d41d8cd98f00b204e9800998ecf8427e *configure.win
 0c201b7fcb6cba2115556b0c77eb4cdd *data/envir.r
 044d89273b137804c5aeab897549dbd5 *demo/00Index
 ff7cd3e18620c6ddf66fc53baa8a5192 *demo/gridinfo.r
-36322a9f1abaae0e49f1e17791fd9e8a *inst/CITATION
+29ccd939aa894f1a305fe155a5a73586 *inst/CITATION
 d2f96430cbbafe6e426e9617aa26a76e *inst/LICENSE
 03396a1cfbd0adb8225c265d25cde3bf *inst/doc/build_pdf.sh
 adecc849d8941598ecfcc8ed2d88bd73 *inst/doc/pbdSLAP-guide.Rnw
-9c0459d82fd9da8726f3d8e8e25c631d *inst/doc/pbdSLAP-guide.pdf
+21a45cf37e49d1d72ce6a251f52113a2 *inst/doc/pbdSLAP-guide.pdf
 6e3ca1e66839ff78adb64b3c76cbbfb7 *inst/doc/pbdSLAP-include/00-preamble.tex
 7afb2061bbec49ff4c45aa9a8bb5ca05 *inst/doc/pbdSLAP-include/01-acknowledgement.tex
 b2c9df33f8c993c32eda8f8ec0e14fa7 *inst/doc/pbdSLAP-include/01-copyright.tex
@@ -324,7 +324,7 @@ dd22aa98d6389cd40209b3e3067b1728 *src/REDIST/pdgemr2.c
 37e9c83ce100d778971c9a133c9bbc14 *src/REDIST/redist.h
 466473d3382852e5dec713cab3c0ec6e *src/SLmake.inc.org
 99d3895e9d1824a8840853d3bb0764ce *src/SLmake.inc.win
-71c6e768083da11cb18c3417dbaf4ee8 *src/ScaLAPACK/Makefile
+a706c2d9a16608f6209aadf5e49398f0 *src/ScaLAPACK/Makefile
 d648dd812b9a40ad28dae82ccc3b923e *src/ScaLAPACK/bdlaapp.f
 fe9cba7b77c5936561020fc96a56d824 *src/ScaLAPACK/bdlaexc.f
 88735aa4862deb8c1f36185ed4be0cfe *src/ScaLAPACK/bdtrexc.f
@@ -506,6 +506,7 @@ dbcd996369497a41c7d777e1998089ca *src/ScaLAPACK/pdsyntrd.f
 dc0c460377a270c35fdeacb0306b8a39 *src/ScaLAPACK/pdsytd2.f
 a1c9a05d92a568d80a831794c00e518c *src/ScaLAPACK/pdsytrd.f
 1a3696c17594ff1e878a5957b34a15eb *src/ScaLAPACK/pdsyttrd.f
+dbc7267fa8c6af5e4426e11b90dac2d7 *src/ScaLAPACK/pdtrcon.f
 58b3470fa77097de704042124d978f0b *src/ScaLAPACK/pdtrord.f
 e658eca47494dcf6c5e2112f540305a4 *src/ScaLAPACK/pdtrsen.f
 dcfa46601aa90bdfed45be508b57354a *src/ScaLAPACK/pdtrti2.f
