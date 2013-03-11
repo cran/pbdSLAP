@@ -1,6 +1,6 @@
-89b847f533aac2846820a0751b45f6ba *ChangeLog
+bacd9fbee124305db9b892843ca91e30 *ChangeLog
 5c22cafd58126b7aa74069fdb05a7629 *ChangeNote
-9b015d933bd55e0418c6c4424f5b2275 *DESCRIPTION
+9660b57a4964779036d432d6f788ae86 *DESCRIPTION
 04c171302ea7931796761bab32fc8734 *INSTALL
 c9e32d9da11e405a3dbfeda6b63233b2 *INSTALL.win.bin
 d9042f20bca097bb100ba6cfc633b00a *INSTALL.win.src
@@ -20,7 +20,7 @@ ff7cd3e18620c6ddf66fc53baa8a5192 *demo/gridinfo.r
 d2f96430cbbafe6e426e9617aa26a76e *inst/LICENSE
 03396a1cfbd0adb8225c265d25cde3bf *inst/doc/build_pdf.sh
 adecc849d8941598ecfcc8ed2d88bd73 *inst/doc/pbdSLAP-guide.Rnw
-21a45cf37e49d1d72ce6a251f52113a2 *inst/doc/pbdSLAP-guide.pdf
+65ebb98943dae145f0cc0f56f09e1b29 *inst/doc/pbdSLAP-guide.pdf
 6e3ca1e66839ff78adb64b3c76cbbfb7 *inst/doc/pbdSLAP-include/00-preamble.tex
 7afb2061bbec49ff4c45aa9a8bb5ca05 *inst/doc/pbdSLAP-include/01-acknowledgement.tex
 b2c9df33f8c993c32eda8f8ec0e14fa7 *inst/doc/pbdSLAP-include/01-copyright.tex
@@ -574,5 +574,5 @@ fa77d3d2b8b1c485854a5ee1826c3fd8 *src/TOOLS/pilaprnt.f
 01877fbeb94cdb120ac9f2f500ca1af1 *src/TOOLS/pitreecomb.f
 08757676b873a3885df7c9b840c0644c *src/TOOLS/reshape.c
 cfb3a1d25a85269916d2d2a84d6a30c8 *src/TOOLS/sltimer.f
-8baabe153482aaf183734008b553ed56 *src/install.libs.R
+bb7460f521cb0eb318546549d08a8dff *src/install.libs.R
 059a6dc1b619be9801bd9f03d3782b2a *src/slap_blacs.f
