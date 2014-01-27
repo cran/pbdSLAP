@@ -9,6 +9,7 @@
 \usepackage{amssymb}
 \definecolor{mygreen}{RGB}{0,150,0}
 
+\newcommand{\slapversion}{0.1-7}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% declarations for jss.cls %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -18,23 +19,27 @@
 \author{
 \begin{minipage}{6in}
 \centering
-Wei-Chen Chen$^1$, Drew Schmidt$^2$, George Ostrouchov$^{1,2}$, \\
+Wei-Chen Chen$^1$, Drew Schmidt$^2$, George Ostrouchov$^{2,3}$, \\
 Pragneshkumar Patel$^2$
 \end{minipage}
 \\
 \\
-$^1$Computer Science and Mathematics Division, \\
-Oak Ridge National Laboratory, \\
-Oak Ridge, TN, USA \\
-\\
-$^2$Remote Data Analysis and Visualization Center,\\
+$^1$Department of Ecology and Evolutionary Biology, \\
 University of Tennessee, \\
 Knoxville, TN, USA \\
+\\
+$^2$National Institute for Computational Sciences, \\
+University of Tennessee, \\
+Knoxville, TN, USA \\
+\\
+$^3$Computer Science and Mathematics Division, \\
+Oak Ridge National Laboratory, \\
+Oak Ridge, TN, USA \\
 %\\
 %\\
 %\today
 }
-\title{A Quick Guide for the \pkg{pbdSLAP} Package}
+\title{A Quick Guide for the \pkg{pbdSLAP} Package {\small (Ver. \slapversion)}}
 %\\
 %\vspace{0.2cm} \large (Based on Version 0.1-2)}
 
