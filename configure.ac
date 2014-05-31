@@ -13,7 +13,7 @@ fi
 R_SCMD="${R_HOME}/bin/Rscript -e"
 
 
-dnl Check other CC.
+dnl Check other CC/FC.
 if test "X${CC}" = "X"; then
   CC=`"${R_HOME}/bin/R" CMD config CC`
   if test "X$CC" = "X" ; then
@@ -21,7 +21,14 @@ if test "X${CC}" = "X"; then
     CC="gcc -std=gnu99"
   fi
 fi
-AC_PROG_CC
+
+if test "X${FC}" = "X"; then
+  FC=`"${R_HOME}/bin/R" CMD config FC`
+  if test "X$FC" = "X" ; then
+    # Our best guess...
+    FC="gfortran"
+  fi
+fi
 
 
 dnl Set EXT_LDFLAGS, otherwise default LDFLAGS, OBJS, and LIBS will be set.
@@ -61,6 +68,7 @@ echo " "
 echo "****************** Results of pbdSLAP package configure *****************"
 echo " "
 echo ">> CC = ${CC}"
+echo ">> F77 = ${F77}"
 echo ">> FC = ${FC}"
 echo ">> EXT_LDFLAGS = ${EXT_LDFLAGS}"
 echo ">> EXT_OBJS = ${EXT_OBJS}"
@@ -76,6 +84,8 @@ echo " "
 
 dnl Start to substitute templates
 AC_SUBST(CC)
+AC_SUBST(F77)
+AC_SUBST(FC)
 AC_SUBST(EXT_LDFLAGS)
 AC_SUBST(EXT_OBJS)
 AC_SUBST(EXT_LIBS)
