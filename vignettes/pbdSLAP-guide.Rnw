@@ -19,27 +19,30 @@
 \author{
 \begin{minipage}{6in}
 \centering
-Wei-Chen Chen$^1$, Drew Schmidt$^2$, George Ostrouchov$^{2,3}$, \\
-Pragneshkumar Patel$^2$
+Wei-Chen Chen$^1$, Drew Schmidt$^2$, George Ostrouchov$^{3,4}$, \\
+Pragneshkumar Patel$^3$
 \end{minipage}
 \\
 \\
-$^1$Center for Biologics Evaluation and Research, \\
-Food and Drug Adminstration, \\
-Silver Spring, MD, USA \\
+$^1$pbdR Core Team \\
 \\
-$^2$National Institute for Computational Sciences, \\
+$^2$Business Analytics and Statistics, \\
 University of Tennessee, \\
 Knoxville, TN, USA \\
 \\
-$^3$Computer Science and Mathematics Division, \\
+$^3$National Institute for Computational Sciences, \\
+University of Tennessee, \\
+Knoxville, TN, USA \\
+\\
+$^4$Computer Science and Mathematics Division, \\
 Oak Ridge National Laboratory, \\
 Oak Ridge, TN, USA \\
 %\\
 %\\
 %\today
 }
-\title{A Quick Guide for the \pkg{pbdSLAP} Package {\small (Ver. \slapversion)}}
+% \title{A Quick Guide for the \pkg{pbdSLAP} Package {\small (Ver. \slapversion)}}
+\title{A Quick Guide for the \pkg{pbdSLAP} Package}
 %\\
 %\vspace{0.2cm} \large (Based on Version 0.1-2)}
 
