@@ -1,6 +1,6 @@
 e879eaad64aab8e1f8e63e298f5cea28 *COPYING
-fe2dad95dcbdf9f12ba7c4bdf327ecd0 *ChangeLog
-dab6f68b1f905c10502e8e362eb4ca3b *DESCRIPTION
+cc67dca86d88976269b16a8873d16c76 *ChangeLog
+50216fb745aafa549887225d1d730709 *DESCRIPTION
 c640d62e7d300fd1f02cb6d49d9f75b6 *INSTALL
 a7e6de6f55bab05950d6edb222ad320b *NAMESPACE
 e65685d28ecc6253c081d6a595d882f0 *R/000_globalVariables.r
@@ -132,7 +132,7 @@ d4adb6db1dc6063fed1652a78c01947f *src/BLACS/kbrid_.c
 d77bac84a5c586cd459b9738460d2b1f *src/BLACS/krecvid_.c
 5cdff0599dad6e8e9a6f9244f3e9f437 *src/BLACS/ksendid_.c
 9c9aff3d0e0fd50244a3406569ec67df *src/BLACS/sys2blacs_.c
-1b5f0c2b7acefb1e0cebdfb9c8df08db *src/Makevars.in
+a4e62c274deb46362428bb5b55eed16a *src/Makevars.in
 0b025a725d4019c1dfcc6aaad34814c2 *src/Makevars.win
 a861badbd681d4f1e6e18ac1a226a35f *src/PBLAS/Makefile
 fd0eed9ddb8ce8cbc2c112dc2019ace7 *src/PBLAS/PBBLAS/Makefile
@@ -391,10 +391,10 @@ ef377da6ee32ee719f0296756ec01833 *src/ScaLAPACK/pdgetri.f
 2a7ad3affe188e77eef8a4a7f1a8bd80 *src/ScaLAPACK/pdgetrs.f
 2a3829834602b04ef617891dc50cc9dd *src/ScaLAPACK/pdggqrf.f
 2b96f3b246694a2c512ecebdd0bd0ef6 *src/ScaLAPACK/pdggrqf.f
-2085ba613ecce31c294bac69aa01b835 *src/ScaLAPACK/pdhseqr.f
+d075b48631b9992356e339b9cd92b209 *src/ScaLAPACK/pdhseqr.f
 f83e9c4ac05b424039f3a3c4ddf2e6d7 *src/ScaLAPACK/pdlabad.f
 c0a42b06067f3aeee01c29fdb849357b *src/ScaLAPACK/pdlabrd.f
-51ddcff0f2d043d0d11028aeed0146ba *src/ScaLAPACK/pdlacon.f
+5304500f94bc6c7eb61aceb2c2aad8ca *src/ScaLAPACK/pdlacon.f
 aac801264ff715bd7c091e4019fdebfa *src/ScaLAPACK/pdlaconsb.f
 c27223b66355d44bc9de95e626538876 *src/ScaLAPACK/pdlacp2.f
 2b64bbcfde0d1ac3e50b24f8fb1edca2 *src/ScaLAPACK/pdlacp3.f
@@ -427,11 +427,11 @@ b8614624a68a113f54587505296f689a *src/ScaLAPACK/pdlaqr5.f
 2b628738535b5f603c9ecd5cfadbb4b4 *src/ScaLAPACK/pdlaqsy.f
 f007c2dceeff985d51956600bc1eb31a *src/ScaLAPACK/pdlared1d.f
 d66936df957049c0c4f154dc6cdc840c *src/ScaLAPACK/pdlared2d.f
-82313f7450127e8ae6e70f5660059148 *src/ScaLAPACK/pdlarf.f
+8f2bcaf5fd2fe919dbceffdce13c1747 *src/ScaLAPACK/pdlarf.f
 2666471fcb3408a43b844a150304c498 *src/ScaLAPACK/pdlarfb.f
 e76a679e75059285299caa1d00246c0d *src/ScaLAPACK/pdlarfg.f
 fcb2066552c802a8e3c9ef4f9e134247 *src/ScaLAPACK/pdlarft.f
-cdf725d61271421c3ce32deba991c53e *src/ScaLAPACK/pdlarz.f
+fdacc22dc5fa3407c8529e7a3cb52a5a *src/ScaLAPACK/pdlarz.f
 08f4984a9665e77fee58e475e463c47e *src/ScaLAPACK/pdlarzb.f
 fa016158d543e119025f953bc49e6ea4 *src/ScaLAPACK/pdlarzt.f
 12754b82d6b5068253001b6485f83db4 *src/ScaLAPACK/pdlascl.f
@@ -447,7 +447,7 @@ d553ef1663828cf1a80af55e434cb474 *src/ScaLAPACK/pdlatrd.f
 74771c6173f2addc93754beb3a3d4823 *src/ScaLAPACK/pdlatrz.f
 f5a9413b306c48757a90815b74f6be74 *src/ScaLAPACK/pdlauu2.f
 668891e24899bc881b6c10c3c87145a8 *src/ScaLAPACK/pdlauum.f
-798122ce065d89219c746b07280dd6dd *src/ScaLAPACK/pdlawil.f
+d333d01898d243d50d07e96b2459d14c *src/ScaLAPACK/pdlawil.f
 98330da5dbba2afea2ff04a4ef82ab2e *src/ScaLAPACK/pdorg2l.f
 96e81edb5d3a89d1f330d965fda1d2eb *src/ScaLAPACK/pdorg2r.f
 bbf832f8683a0f53de008233df37efe4 *src/ScaLAPACK/pdorgl2.f
@@ -488,7 +488,7 @@ ec0b80cd3380e1984a80dba701e47246 *src/ScaLAPACK/pdpttrs.f
 9e1fe6fa89137fb12773e13b6df8eae7 *src/ScaLAPACK/pdpttrsv.f
 34509d194afe9a6a4a68722d8117a6e2 *src/ScaLAPACK/pdrot.f
 ad215a913fc726441f57085839a88861 *src/ScaLAPACK/pdrscl.f
-5617a7f5d42f4bea237fd0ac09c3c852 *src/ScaLAPACK/pdstebz.f
+a06e82fe8399c2a238a2775305395834 *src/ScaLAPACK/pdstebz.f
 db2a130eaf7893018de6fd069ef74eaa *src/ScaLAPACK/pdstedc.f
 e112c2fa8d5285f007161580480b8557 *src/ScaLAPACK/pdstein.f
 e5dbeda67f01c0625e0bdb610ba49d5e *src/ScaLAPACK/pdsyev.f
@@ -504,8 +504,8 @@ dc0c460377a270c35fdeacb0306b8a39 *src/ScaLAPACK/pdsytd2.f
 a1c9a05d92a568d80a831794c00e518c *src/ScaLAPACK/pdsytrd.f
 1a3696c17594ff1e878a5957b34a15eb *src/ScaLAPACK/pdsyttrd.f
 dbc7267fa8c6af5e4426e11b90dac2d7 *src/ScaLAPACK/pdtrcon.f
-835e74e9fda6333e57dd36b518b16f64 *src/ScaLAPACK/pdtrord.f
-b8ecd33ed025aecaeb214b134b9b5a21 *src/ScaLAPACK/pdtrsen.f
+6823ce0f6e05af8159bfa5724d6c96e2 *src/ScaLAPACK/pdtrord.f
+6f0a08b4f3fc147e22d20296fbc3973e *src/ScaLAPACK/pdtrsen.f
 dcfa46601aa90bdfed45be508b57354a *src/ScaLAPACK/pdtrti2.f
 95bee6eaf4b4bef933acf35875134b30 *src/ScaLAPACK/pdtrtri.f
 e6a1dbf9a35aa61c03a993dcf54f56fd *src/ScaLAPACK/pdtrtrs.f
