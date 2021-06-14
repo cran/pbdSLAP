@@ -55,8 +55,10 @@ void pdlasnbt_( int *ieflag )
 *  .. Local Scalars ..
 */
    double x;
-   int         negone=-1, errornum;
-   unsigned int *ix; 
+   // int         negone=-1, errornum;	//WCC:remove
+   unsigned int *ix;
+   unsigned int init = 0;	//WCC:add
+   ix = &init;			//WCC:add
 /* ..
 *  .. Executable Statements ..
 */
@@ -132,6 +134,8 @@ void pdlaiectb_( double *sigma, int *n, double *d, int *count )
 */
    double      lsigma, tmp, *pd, *pe2;
    int         i;
+   int *p_tmp, init = 0;	//WCC:add
+   p_tmp = &init;		//WCC:add
 /* ..
 *  .. Executable Statements ..
 */
@@ -139,7 +143,9 @@ void pdlaiectb_( double *sigma, int *n, double *d, int *count )
    lsigma = *sigma;
    pd = d; pe2 = d+1;
    tmp = *pd - lsigma; pd += 2;
-   *count = (*((int *)&tmp) >> 31) & 1;
+   /*WCC *count = (*((int *)&tmp) >> 31) & 1; */
+   p_tmp = (int *) &tmp;
+   *count = (*(p_tmp) >> 31) & 1;
    for(i = 1;i < *n;i++){
       tmp = *pd - *pe2/tmp - lsigma;
       pd += 2; pe2 += 2;
@@ -198,6 +204,8 @@ void pdlaiectl_( double *sigma, int *n, double *d, int *count )
 */
    double      lsigma, tmp, *pd, *pe2;
    int         i;
+   int *p_tmp, init = 0;	//WCC:add
+   p_tmp = &init;		//WCC:add
 /* ..
 *  .. Executable Statements ..
 */
@@ -205,7 +213,9 @@ void pdlaiectl_( double *sigma, int *n, double *d, int *count )
    lsigma = *sigma;
    pd = d; pe2 = d+1;
    tmp = *pd - lsigma; pd += 2;
-   *count = (*(((int *)&tmp)+1) >> 31) & 1;
+   /*WCC *count = (*(((int *)&tmp)+1) >> 31) & 1; */
+   p_tmp = (int *) &tmp;
+   *count = (*(p_tmp+1) >> 31) & 1;
    for(i = 1;i < *n;i++){
       tmp = *pd - *pe2/tmp - lsigma;
       pd += 2; pe2 += 2;

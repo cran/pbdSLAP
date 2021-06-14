@@ -25,7 +25,7 @@
 }
 \references{
   Programming with Big Data in R Website:
-  \url{http://r-pbd.org/}
+  \url{https://pbdr.org/}
 
   ScaLAPACK Website:
   \url{http://www.netlib.org/scalapack/}
