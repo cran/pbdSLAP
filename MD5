@@ -1,6 +1,6 @@
 e879eaad64aab8e1f8e63e298f5cea28 *COPYING
-09c89a4a3705108ebca3b23c336b26a3 *ChangeLog
-9e7f16d97b6b48fb350b553c60e14a1b *DESCRIPTION
+6f873257641db25df34caae288cd7577 *ChangeLog
+a189e85f6dcbd606ce620e2721c45b81 *DESCRIPTION
 c640d62e7d300fd1f02cb6d49d9f75b6 *INSTALL
 a7e6de6f55bab05950d6edb222ad320b *NAMESPACE
 e65685d28ecc6253c081d6a595d882f0 *R/000_globalVariables.r
@@ -14,7 +14,7 @@ c48fbe23cc64f4473d3cbe2ef2dfc449 *configure
 d41d8cd98f00b204e9800998ecf8427e *configure.win
 044d89273b137804c5aeab897549dbd5 *demo/00Index
 663cb097dc11983f19a34ca5c7d783f1 *demo/gridinfo.r
-151de512198294a61766c3a81514ed13 *inst/CITATION
+4aa4331bf33c1cd1817e41fbe90e8003 *inst/CITATION
 4d6c6a0b504e6feab9a6b7602fd7139c *inst/Change_Note.txt
 d2f96430cbbafe6e426e9617aa26a76e *inst/ScaLAPACK_LICENSE.txt
 c64e44e5dc0f67f0c98f0cf18a1e9936 *inst/doc/pbdSLAP-guide.Rnw
@@ -32,8 +32,8 @@ d95547ce4dd18b64dc04dac5a3f36628 *inst/test_intface/find_intface.r
 337b2efde9222eff150e5696ebe9d191 *src/BLACS/BI_Asend.c
 00d927d73511e2a1cadd2a012efa5a19 *src/BLACS/BI_BeComb.c
 e07d808873dbc925bcae1c44daae80dd *src/BLACS/BI_BlacsAbort.c
-66672d545bcf4e5c57d30b98ceecf8dc *src/BLACS/BI_BlacsErr.c
-201915556958e66f302739bc6919d228 *src/BLACS/BI_BlacsWarn.c
+469baf02b384dc0e302652abc463d8bc *src/BLACS/BI_BlacsErr.c
+6b6975d2b90cc831acecb22a47bf58a2 *src/BLACS/BI_BlacsWarn.c
 25cb6c6a5462bc15c02ba0d4016b586f *src/BLACS/BI_BuffIsFree.c
 ac137e0f987bcae54f07dbfaecfbd52e *src/BLACS/BI_ContxtNum.c
 76b2d544a8f05ca9bbce47f62f19cf32 *src/BLACS/BI_EmergencyBuff.c
@@ -243,7 +243,7 @@ dd7bca31e16639cbc0d3fb624a4de6df *src/PBLAS/PTOOLS/PB_Ctzher.c
 62122d16225d5abae1ebb978fdcb7108 *src/PBLAS/PTOOLS/PB_Ctzsyrk.c
 ecd03c288008b93ad0076405aa9f99cb *src/PBLAS/PTOOLS/PB_Ctztrmm.c
 fa286ed0fe293ccc99a5e352c7eda367 *src/PBLAS/PTOOLS/PB_Ctztrmv.c
-085465184a612d8620ab0b07e8448953 *src/PBLAS/PTOOLS/PB_Cwarn.c
+2c2c6d4d7ff09e79076b53da6ef10390 *src/PBLAS/PTOOLS/PB_Cwarn.c
 88d0aebb2c9cf50a4dac5672de49854c *src/PBLAS/PTOOLS/PB_freebuf_.c
 02e49de999a4321393aedc2d95b442d3 *src/PBLAS/PTOOLS/PB_topget_.c
 3c72ed9f92e9f2453f6dc7d503eb9afe *src/PBLAS/PTOOLS/PB_topset_.c
