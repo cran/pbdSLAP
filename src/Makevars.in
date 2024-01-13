@@ -30,7 +30,7 @@ PKG_CPPFLAGS = $(SPMD_CPPFLAGS) $(GFORTRAN_FLAGS)
 PKG_CFLAGS = # -Wincompatible-pointer-types
 PKG_FFLAGS = 
 ### Order is matter.
-PKG_LIBS = $(EXT_LDFLAGS) $(FLIBS) $(SPMD_LDFLAGS)
+PKG_LIBS = $(EXT_LDFLAGS) $(LDFLAGS) $(FLIBS) $(SPMD_LDFLAGS)
 SLAP_FFLAGS = $(R_XTRA_FFLAGS) $(FPICFLAGS) $(SHLIB_FFLAGS) $(SAFE_FFLAGS)
 
 ### Setup R source code and objects.
@@ -93,6 +93,7 @@ $(R_SLAP): SLmake
 	( cd PBLAS; $(MAKE) )
 	( cd REDIST; $(MAKE) )
 	( cd ScaLAPACK; $(MAKE) )
+	$(RANLIB) $(R_SLAP)
 
 clean:
 	@rm -rf *.o *.d *.rc *.so* *.dylib *.dll *.a *.lib *.inc \
