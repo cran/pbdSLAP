@@ -131,9 +131,6 @@
       INTEGER            H, I, IACOL, IAROW, IB, ICTXT, ICURCOL,
      $                   ICURROW, II, IIA, IN, J, JB, JJ, JJA, JN, K,
      $                   LDA, MYCOL, MYROW, NPCOL, NPROW
-*WCC  .. warning: Possible truncated Hollerith literal
-*WCC  .. error: No explicit type declared for 'JB'
-      INTEGER WCC_H
 *     ..
 *     .. External Subroutines ..
       EXTERNAL           BLACS_BARRIER, BLACS_GRIDINFO, INFOG2L,
@@ -165,8 +162,7 @@
 *
       JN = MIN( ICEIL( JA, DESCA( NB_ ) ) * DESCA( NB_ ), JA+N-1 )
       JB = JN-JA+1
-      DO 60 WCC_H = 0, JB-1
-         H = WCC_H
+      DO 60 H = 0, JB-1
          IN = MIN( ICEIL( IA, DESCA( MB_ ) ) * DESCA( MB_ ), IA+M-1 )
          IB = IN-IA+1
          IF( ICURROW.EQ.IRPRNT .AND. ICURCOL.EQ.ICPRNT ) THEN
@@ -237,8 +233,7 @@
 *
       DO 130 J = JN+1, JA+N-1, DESCA( NB_ )
          JB = MIN(  DESCA( NB_ ), JA+N-J )
-         DO 120 WCC_H = 0, JB-1
-            H = WCC_H
+         DO 120 H = 0, JB-1
             IN = MIN( ICEIL( IA, DESCA( MB_ ) ) * DESCA( MB_ ), IA+M-1 )
             IB = IN-IA+1
             IF( ICURROW.EQ.IRPRNT .AND. ICURCOL.EQ.ICPRNT ) THEN

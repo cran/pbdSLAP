@@ -1,5 +1,6 @@
-2024-01-12: Ver. 0.3-5
-  * Fix errors caught by clang and flang-new via llvm-18 and llvm-16
+2024-10-26: Ver. 0.3-6
+  * Fix "Obsolescent feature: Computed GOTO".
+  * Fox "Obsolescent feature: Old-style character length".
 
 2024-01-06: Ver. 0.3-5
   * Remove "rlecuyer".
