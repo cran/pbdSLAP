@@ -1,6 +1,6 @@
 e879eaad64aab8e1f8e63e298f5cea28 *COPYING
-8117f3c424beb47dea50dca7e0234f67 *ChangeLog
-301a63b04949eed320e73f30ae58975e *DESCRIPTION
+feb2a285e8efb28102fbb35d3977f2e3 *ChangeLog
+085dc00e21447255910b79c6c7abe41f *DESCRIPTION
 8591b58bf2279ba747cf235e7f9d9b10 *INSTALL
 f42f31c748ca52d31862faacfaa8c610 *NAMESPACE
 e65685d28ecc6253c081d6a595d882f0 *R/000_globalVariables.r
@@ -86,7 +86,7 @@ f16fba2a43b978adcce8c459294ee511 *src/BLACS/BI_ivvamx.c
 f98112fedbfbaf67da48e2c955e42d01 *src/BLACS/Bconfig.h
 578f364444df906b0303511f21ba4c08 *src/BLACS/Bdef.h
 bdb4c001c84867c3282e53340b99d315 *src/BLACS/Bdef_wcc.h
-6f37bd6029047ab0937c3914b980ac57 *src/BLACS/Makefile
+e78fedef762bb983167851e2ad2ae563 *src/BLACS/Makefile
 d63bf26f7ca165b04ffd3b89598d5807 *src/BLACS/blacs2sys_.c
 93e39e011a53f939d92537315c5ed4d5 *src/BLACS/blacs_abort_.c
 33813596cb6961ebae83c06317fe68a9 *src/BLACS/blacs_barr_.c
@@ -132,10 +132,10 @@ d4adb6db1dc6063fed1652a78c01947f *src/BLACS/kbrid_.c
 d77bac84a5c586cd459b9738460d2b1f *src/BLACS/krecvid_.c
 5cdff0599dad6e8e9a6f9244f3e9f437 *src/BLACS/ksendid_.c
 9c9aff3d0e0fd50244a3406569ec67df *src/BLACS/sys2blacs_.c
-e1b93b258a84fdb253bc3b7b7f0338a9 *src/Makevars.in
+f1b060e4e42e052c4758a08e38cd5d8d *src/Makevars.in
 8279c67ce992e12ea33fee5e49c8ff1b *src/Makevars.win
-79a5dfe46612d50ebf8857e0193e5f20 *src/PBLAS/Makefile
-572b2e775683c3c24ce37b8bf2cb9bf2 *src/PBLAS/PBBLAS/Makefile
+b44d3524aaa290e46cbe9a94e3b894f5 *src/PBLAS/Makefile
+f3aaf529be9f1131e22f045e380ef164 *src/PBLAS/PBBLAS/Makefile
 1af6fe7fac96faee91f1943fe07a5110 *src/PBLAS/PBBLAS/pbdmatadd.f
 ce9a7dd4a019c49ef3edf7333a1f84ae *src/PBLAS/PBBLAS/pbdtran.f
 e0d32b9e679f582f39d481a0bcb2fd3b *src/PBLAS/PBBLAS/pbdtrget.f
@@ -147,7 +147,7 @@ dc09a502813fcba6f51a5de14800bf58 *src/PBLAS/PBBLAS/pbdtrst1.f
 9c20cca1518e8d8a56ce712f8c3c9898 *src/PBLAS/PBblas.h
 5290d4884aa6abbd6a8f486443bc37a4 *src/PBLAS/PBpblas.h
 98ca3c2b4e74eea8ebe7f65def048745 *src/PBLAS/PBtools.h
-09f749033d502cfcd58d0a3c9e15ac2a *src/PBLAS/PTOOLS/Makefile
+2bb224da9963e8dba46495192bbd4a52 *src/PBLAS/PTOOLS/Makefile
 ac923402b54373f7444a6e144653867d *src/PBLAS/PTOOLS/PB_CGatherV.c
 148f9c3b750abf5bb36ebd52cfd58eaf *src/PBLAS/PTOOLS/PB_CInOutV.c
 c7688034dc1ae2d4d2a5e923e7e78542 *src/PBLAS/PTOOLS/PB_CInOutV2.c
@@ -249,7 +249,7 @@ fa286ed0fe293ccc99a5e352c7eda367 *src/PBLAS/PTOOLS/PB_Ctztrmv.c
 3c72ed9f92e9f2453f6dc7d503eb9afe *src/PBLAS/PTOOLS/PB_topset_.c
 ff5416c51e7e13813e474c9347c59b34 *src/PBLAS/PTOOLS/wcc_PB_Cdtypeset.c
 600ae78d62e51918fc9af36324348218 *src/PBLAS/PTOOLS/wcc_PB_Citypeset.c
-10b32f4a2775a41c1679c4bceb32b06c *src/PBLAS/PTZBLAS/Makefile
+7a8aadca2a975b2be67ea9de7c632cc3 *src/PBLAS/PTZBLAS/Makefile
 20de2794255877b39fdaa039febc82fc *src/PBLAS/PTZBLAS/dagemv.f
 af9b602b05d27652c404a34e85d1301c *src/PBLAS/PTZBLAS/dascal.f
 9ce6e61d5ccefd85fd7b94d6a549416c *src/PBLAS/PTZBLAS/dasqrtb.f
@@ -307,7 +307,7 @@ f64307ef978b7fad1f1560ca75e6a5c9 *src/PBLAS/pdtrsm_.c
 e5ebf12dd800b8af83b4a53be5ecdf91 *src/PBLAS/picopy_.c
 2fb1dfe236bf65a27f7c3139ac0ca5c4 *src/PBLAS/pilaenv.f
 6baf2eae8a5dfb45c5f4c99cc9ae81de *src/PBLAS/wcc_PBtools.h
-a380015b54361a069042cf54190fa423 *src/REDIST/Makefile
+86a62c9c11c87feacea44907dd009938 *src/REDIST/Makefile
 7efb7b5fcef9f92788c8a1e9588c5f66 *src/REDIST/pdgemr.c
 a5131248a61656a22b54c9c013bf66d9 *src/REDIST/pdgemr2.c
 d8ba5982d56341dad1c7113c861fb558 *src/REDIST/pdtrmr.c
@@ -318,9 +318,9 @@ e627e4b9dda5000aae061579437725ac *src/REDIST/pigemr2.c
 e1359e63fec115eaf19f23ad41589abd *src/REDIST/pitrmr.c
 89b8fab1aa35c828331ce3d3917984ac *src/REDIST/pitrmr2.c
 0a0d22aa5b32ece0fa343f1b0c5deae6 *src/REDIST/redist.h
-c5bccb316b46d9dde1b4097b42a7e509 *src/SLmake.inc.org
-afa9dd68a1c46b23b0d87960b7035e73 *src/SLmake.inc.win
-949705730b4a9dc63a78fd86262387ca *src/ScaLAPACK/Makefile
+da2ae42b03024659705c8643f3f096a4 *src/SLmake.inc.org
+04de87a102552670547e01b43ea4e046 *src/SLmake.inc.win
+dcd9d2b15eef29c852e9bb851a5b068c *src/ScaLAPACK/Makefile
 d648dd812b9a40ad28dae82ccc3b923e *src/ScaLAPACK/bdlaapp.f
 4cead8bd7045fa0f28105f95685ec8e1 *src/ScaLAPACK/bdlaexc.f
 88735aa4862deb8c1f36185ed4be0cfe *src/ScaLAPACK/bdtrexc.f
@@ -517,7 +517,7 @@ b516910f77c5318f98836dcebc0bcbc7 *src/ScaLAPACK/pjlaenv.f
 16332e02706f1c5ccd637c600231dd34 *src/ScaLAPACK/pmpim2.f
 d9de26b41a9864bf4abf3d9fed23daf5 *src/ScaLAPACK/pxsyevx.h
 25e8993089980b208549ead7703eb5a0 *src/ScaLAPACK/tools.h
-6a87994152d3723847b1c809569c3e5f *src/TOOLS/LAPACK/Makefile
+8a4c7074851c4586903bdcff958698f7 *src/TOOLS/LAPACK/Makefile
 dbdc37976ad4f21fb76c7be551c2baa3 *src/TOOLS/LAPACK/dlagge.f
 871857ad0438b535039dd439de657fa3 *src/TOOLS/LAPACK/dlagsy.f
 fc631c478eef87cf23685f0407e84747 *src/TOOLS/LAPACK/dlaran.f
@@ -526,7 +526,7 @@ ebca792522a286df9aacbb3e77614983 *src/TOOLS/LAPACK/dlarot.f
 e42fc58d3e563a9b871900a43080bf26 *src/TOOLS/LAPACK/dlatm1.f
 671675cdac65fa7237607c7a1c0c6ca3 *src/TOOLS/LAPACK/dlatms.f
 81c35f8296a7fab183a6973f44c51192 *src/TOOLS/LAPACK/icopy.f
-9b0d186c64956a006579daffd8aa4fc6 *src/TOOLS/Makefile
+ee8caa78c56ba758e7c94e2b894faa57 *src/TOOLS/Makefile
 30bd871b41c3f8f63589114cd57d56e4 *src/TOOLS/SL_gridreshape.c
 13377fa2531a9bbec88abef31690738b *src/TOOLS/SL_init.f
 662eff045421ee9c808603332dedd700 *src/TOOLS/chk1mat.f
